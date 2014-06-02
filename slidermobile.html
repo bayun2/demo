@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<style type="text/css">
+		html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html,body,fieldset,img,iframe,abbr {
+    border: 0;
+}
+
+i,cite,em,var,address,dfn {
+    font-style: normal;
+}
+
+[hidefocus],summary {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,small {
+    font-size: 100%;
+}
+
+sup,sub {
+    font-size: 83%;
+}
+
+pre,code,kbd,samp {
+    font-family: inherit;
+}
+
+q:before,q:after {
+    content: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label,summary {
+    cursor: default;
+}
+
+a,button {
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6,em,strong,b {
+    font-weight: bold;
+}
+
+del,ins,u,s,a,a:hover {
+    text-decoration: none;
+}
+
+body,textarea,input,button,select,keygen,legend {
+    font-size: 16px;
+    line-height: 1.14;
+    color: #333;
+    outline: 0;
+}
+
+body {
+    background: #fff;
+}
+
+a {
+    color: #333;
+    outline: none;
+}
+
+a:active {
+    -webkit-tap-highlight-color: #c8c8c8;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+		.g-wrap {position: relative;min-height: 100%;margin: 0 auto;background: #EDEDED;box-sizing: border-box;overflow-x: hidden}
+		.m-wrap .step{-webkit-transform: translateZ(0px);position: absolute;top: 0px;min-height: 100%;width: 100%;left: 100%;-webkit-transition: left 350ms ease-out;}
+		.m-wrap .step-index{left:-100%;background-color: red;}
+		.m-wrap .step-2 {background-color: blue;}
+		.m-wrap .step-2-2 {background-color: orange;}
+		.m-wrap .step-3 {background-color: yellow;}
+		.m-wrap .step-4 {background-color: green;}
+		.m-step-1 .step-1{left:0;}
+		.m-step-2 .step-2{left:0;}
+		.m-step-2-2 .step-2-2{left:0;}
+		.m-step-3 .step-3{left:0;}
+		.m-step-4 .step-4{left:0;}
+		.m-wrap .prev{left:-100%;}
+	</style>
+</head>
+<body class="m-step-1">
+	<div class="g-wrap m-wrap">
+		<div class="step-1 step step-index">
+			<a class="j-gofack" step="2">2</a>
+			<a class="j-gofack" step="3">3</a>
+			<a class="j-gofack" step="4">4</a>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+			<p>Nihao你好</p><p>Nihao你好</p><p>Nihao你好</p>
+		</div>
+		<div class="step-2 step">
+			2
+			<a class="j-gofack" step="2-2">2-2</a>
+			<a class="j-back">index</a>
+		</div>
+		<div class="step-2-2 step">
+			2-2
+			<a class="j-back">index</a>
+		</div>
+		<div class="step-3 step">3<a class="j-back">index</a></div>
+		<div class="step-4 step">4<a class="j-back">index</a></div>
+	</div>
+	<script type="text/javascript" src="http://zeptojs.com/zepto-docs.min.js"></script>
+	<script type="text/javascript">
+		function StepManager() {
+			this.wrapEl = $("body");
+			this.stepIndex = $(".step-1");
+			this.steps = $(".step");
+			this.backBtn = this.wrapEl.find(".j-back");
+			this.gofackBtn = this.wrapEl.find(".j-gofack");
+			this.curStep = 1;
+
+			this.wrapEl
+						.on("click", ".j-back", $.proxy(this.goBackAction, this))
+						.on("click", ".j-gofack", $.proxy(this.gofackAction, this))
+		}
+
+		StepManager.prototype.goBackAction = function(e) {
+			e.preventDefault();
+			$("body").attr("class", "m-step-1");
+			this.stepIndex.removeClass("prev");
+			var preArea = $(".prev").hide().removeClass("prev");
+			setTimeout(function() {
+				preArea.show();
+			}, 350)	
+			this.curStep = 1;
+		}
+
+		StepManager.prototype.gofackAction = function(e) {
+			e.preventDefault();
+			var targetStep = $(e.target).attr("step");			
+			$("body").attr("class", "m-step-"+targetStep);
+			$(".step-"+this.curStep).addClass("prev");
+			this.curStep = targetStep;
+		}
+
+		new StepManager();
+	</script>		
+</body>
+</html>
